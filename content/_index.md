@@ -16,9 +16,7 @@ sections:
     content:
       title:
       text: |
-        This is the corresponding website to the publication [Intraocular dendritic cells characterize HLA-B27-associated acute anterior uveitis
-](https://doi.org/10.7554/elife.67396) by Kasper et al., *eLife* 2021.
-        We present single cell RNA-sequencing data intraocular liquid from HLA-B27-positive and -negative uveitis patients.
+        This is the corresponding website to the publication [Intraocular dendritic cells characterize HLA-B27-associated acute anterior uveitis](https://doi.org/10.7554/elife.67396) by Kasper et al., *eLife* 202         1.We present single cell RNA-sequencing data intraocular liquid from HLA-B27-positive and -negative uveitis patients.
         The raw sequencing are available via [GEO GSE178833](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178833).
 
   - block: collection
