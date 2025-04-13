@@ -1,25 +1,29 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-12-12
 type: landing
 
 sections:
   - block: hero
     content:
-      title: |
-        Wowchemy
-        Research Group
+      title: Welcome to the <br> PCNSL dataset.
       image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
+        filename: manuscript_scheme.png
+      text:
+
+  - block: markdown
     content:
-      title: Latest News
+      title:
+      text: |
+        This is the corresponding website to the publication [Intratumor heterogeneity and T cell exhaustion in primary CNS lymphoma](https://doi.org/10.1186/s13073-022-01110-1) by Heming et al., *Genome Medicine* 2022.
+        We present single cell RNA-sequencing data of biopsy fluid, blood and CSF from patients with primary CNS B cell lymphoma.
+        The raw sequencing are available via [GEO GSE203552](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203552).
+
+  - block: collection
+    id: datasets
+    content:
+      title: Dataset
       subtitle:
       text:
       count: 5
@@ -31,50 +35,16 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
+      page_type: datasets
     design:
-      view: card
+      view: showcase
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+      flip_alt_rows: false
 
   - block: markdown
+    id: contact
     content:
-      title:
-      subtitle:
+      title: Contact
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+        If you have any questions, please contact us via [mheming.com](https://www.mheming.com).
 ---
